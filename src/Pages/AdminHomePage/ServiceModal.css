@@ -1,0 +1,54 @@
+  /* .modal */
+/* {    width: 600px; */
+    /* height: 100%;
+    padding: 2rem; }*/
+
+/*
+*/
+/* .modal-body
+{
+    width: fit-content;
+} */
+
+.modal-content
+{
+    
+    /* max-width: fit-content;
+    padding: 0;
+    */
+
+    /* width: 50rem !important; */
+    /* flex-direction: initial; */
+    width: 100%;
+    overflow-x: hidden;
+    /* flex-wrap: wrap; */
+    /* display: flex; */
+} 
+
+/* table
+{
+
+    align-items: center;
+    width: 100% ;
+} */
+tr
+{
+    display: table-row;
+}
+.modal
+{
+    width: 100% !important;
+}
+table
+{
+    /* display: table; */
+    width: 100%;
+    overflow: auto;
+    word-wrap: break-word;
+    padding: 0;
+}
+input[type='text']
+{
+    width: fit-content;
+    margin: 0.2rem 0.2rem;
+}

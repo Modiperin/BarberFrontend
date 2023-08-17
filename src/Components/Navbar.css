@@ -1,0 +1,14 @@
+ .nav-left
+{
+    
+    margin-inline: auto;
+}
+
+
+.nav-right
+{   
+    position: relative;
+    right: 4rem;
+    gap: 2rem;
+   
+} 

@@ -1,0 +1,46 @@
+.cbody1 {
+    font-family: 'Lato', sans-serif;
+    background-color: #f4b927;
+    margin-bottom: 5rem;
+    overflow: hidden;
+    
+   }
+   .wrapper {
+   padding-top: 120px;
+   height: 100%;
+}
+.card
+{
+    background-color: #f4b927;
+    border: 2px solid #252525;
+    padding: 4px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(2,1fr); */
+    /* gap: 4rem; */
+}
+.card-img-top {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+.card-body{
+    /* margin-bottom: 5rem; */
+    text-align: center;
+    box-shadow: 0px 15px 15px -8px rgba(0,0,0,0.5);
+}
+.card-body h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: deeppink;
+   }
+   .card-title {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 24px;
+   }
+   
+
+   @media (max-width: 800px){
+       .mx-30{
+           margin-bottom: 30px;
+       }
+   }
+   

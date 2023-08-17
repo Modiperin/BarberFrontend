@@ -1,0 +1,60 @@
+/* .dashboard__nav
+{
+    display: flex;
+    gap: 4rem;
+    background-color: darkgray;
+}
+.dashboard__nav li
+{
+    color: black;
+} */
+
+
+.vertical__nav{
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 0rem;
+    gap: 1.2rem;
+    z-index: 9999;
+    background-color: antiquewhite;
+}
+.vertical__nav li :any-link
+{
+    color: black;
+    gap: 1rem;
+}
+
+.img__gallery
+{
+    width: 500px;
+    height: 500px;
+}
+.img__gallery img
+{
+    width: 500px;
+    height: 500px;
+}
+
+.main__div
+{
+    display: flex;
+}
+table,th,td
+{
+    margin: 2px ;
+    gap: 2rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th
+{
+    width: 100%;
+    padding: 1rem;
+}
+td
+{
+    padding: 0.8rem 0.8rem;
+}

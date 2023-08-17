@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+  }
+  
+  .email-verification {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+  }
+  
+  .email-verification h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .email-verification p {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .email-verification .email {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .email-verification .link {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .email-verification a:hover {
+    text-decoration: underline;
+  }
+  
+  .email-verification .button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .email-verification .button:hover {
+    background-color: #0099cc;
+  }
+
+  .otp-form .otp-field {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    line-height: 4rem;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid var(--bs-secondary);
+    outline: none;
+  }
+  
+  .otp-form .otp-field:focus {
+    border-bottom-color: var(--bs-dark);
+  }
+  

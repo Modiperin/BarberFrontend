@@ -1,0 +1,45 @@
+.cbody {
+    font-family: 'Lato', sans-serif;
+    background-color: #f4b927;
+    margin-bottom: 20rem;
+    height: 100%;
+    overflow: scroll;
+}
+
+.wrapper {
+    padding-top: 20px;
+}
+
+.card {
+    background-color: #f4b927;
+
+}
+
+.card-img-top {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+    /* margin-bottom: 5rem; */
+    text-align: center;
+    box-shadow: 0px 15px 15px -8px rgba(0, 0, 0, 0.5);
+}
+
+.card-body h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: deeppink;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+@media (max-width: 800px) {
+    .mx-30 {
+        margin-bottom: 30px;
+    }
+}

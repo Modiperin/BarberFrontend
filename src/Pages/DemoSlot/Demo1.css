@@ -1,0 +1,85 @@
+.schedule{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+/* .schedule__day
+{
+    display: grid;
+} */
+.choose__dates button
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-inline: auto;
+    height: fit-content;
+    padding: 0.4rem 0.6rem;
+    border: 0.2rem solid rgb(200, 41, 41);
+}
+.choose__dates
+{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-inline: auto;
+    height: 200px;
+}
+.choose__dates button.click{
+    background-color: green;
+}
+
+.choose__employee
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    gap: 6rem;
+    position: absolute;
+    margin: 8rem 0;
+}
+.choose__employee button.click
+{
+    background-color: rgba(64, 213, 50, 0.6)
+}
+.choose__time
+{
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* margin: 0 auto; */
+    gap:1rem;
+    padding-top: 1rem;
+    margin-top: 4rem;
+    margin-inline: auto;
+    /* margin-top: 3rem auto; */    
+    /* position: absolute; */
+
+}
+
+.choose__time button.click
+{
+    border: 2px solid green;
+    background-color: rgba(64, 213, 50, 0.6);
+}
+.choose__time button
+{
+    /* grid-column-start: 2rem; */
+    
+    padding: 0.6rem 1.4rem;
+    background-color: rgba(188, 184, 184, 0.6);
+    font-weight: 550;
+    
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.choose__time button.disable__btn
+{
+    /* background-color: gray;     */
+    color:gray;
+}
