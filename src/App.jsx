@@ -38,108 +38,17 @@ const App = () => {
       setLoader(false);
     },1000);
   }
-  // const routerData = createBrowserRouter([
-  //   {
-  //     path: '/',
-  //     element: <Home />,
-  //     errorElement: <Error404 />
-  //   },
-  //   {
-  //     path: '/login',
-  //     element: <Login />,
-  //     errorElement: <Error404 />,
-  //     children: [
-  //       {
-  //         path: 'forgotpassword',
-  //         element: <ForgotPassword />,
-  //         errorElement: <Error404 />
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     path: '/demo123',
-  //     element: <Demo />,
-  //     errorElement: <Error404 />
-  //   },
-  //   {
-  //     path: '/demo2',
-  //     element: <Demo2 />,
-  //     errorElement: <Error404 />
-  //   },
-  //   {
-  //     path: '/store',
-  //     element: <Store />,
-  //     errorElement: <Error404 />
-  //   },
-  //   {
-  //     path: '/adminhomepage',
-  //     element: <AdminHomePage />,
-  //     errorElement: <Error404 />,
-  //     loader: AdminProtectedRoutes
-  //   },
-  //   {
-  //     path: '/confirm',
-  //     element: <ConfirmationMail />,
-  //     errorElement: <Error404 />
-  //   },
-  //   {
-  //     path: '/gotostore',
-  //     element: <BussinessForm />,
-  //     errorElement: <Error404 />,
-  //     loader: ProtectedRoutes
-  //   },
-  //   {
-  //     path: '/signup',
-  //     element: <SignUp />,
-  //     errorElement: <Error404 />
-  //   }
-  // ]);
-
+  
   return (
     !loader && (
       <>
         <Navbar />
-        {/* <Loader/> */}
         <Routes>
-          <Route path='/demo123' element={<Demo />}></Route>
-          <Route path='/demo1' element={<Demo1 />}></Route>
-          <Route path='/demo2' element={<Demo2 />}></Route>
-          <Route path="/servicedemo" element={<UserServicePage/>}></Route>
-          <Route element={<ProtectedRoutes></ProtectedRoutes>}>
-            <Route path='/gotostore' element={<BussinessForm />}></Route>
-            <Route path='/cart' element={<UserCart />} />
-            <Route path='currentappointment' element={<CurrentAppointments/>}/>
-          </Route>
-          <Route element={<AdminProtectedRoutes />}>
-            <Route path='/adminhomepage' element={<AdminHomePage />} />
-          </Route>
-          <Route path="/confirm" element={<ConfirmationMail />}></Route>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/signup" element={<SignUp />}></Route>
-          <Route path="/login" element={<Login />}></Route>
-          <Route path='/login/forgotPassword' element={<ForgotPassword />}></Route>
-          <Route path="/service" element={<Service />}></Route>
-          <Route path="/store" element={<Store />}></Route>
-          <Route path="/store1" element={<Store1 />}></Route>
-          <Route path="/conformation" element={<Conform />}></Route>
-          <Route path='/userservice' element={<UserServicePage/>}></Route>
-          <Route path="/error500" element={<Error500 />} />
-          <Route path='/*' element={<Error404 />} />
-
-          <Route path='/login/forgotPassword' element={<ForgotPassword />}></Route>
-          <Route path="/admin/service" element={<AdminServicePage />}></Route>
-          <Route path="/admin/dashboard" element={<AdminDashboard />}></Route>
         </Routes>
         <Footer />
-        {/* <EnhancedTable/> */}
-
       </>
     )
-    // <>
-    //   <Navbar />
-    //   <RouterProvider router={routerData}>{Children}</RouterProvider>
-    //   <Footer/>
-    // </>
   );
 };
 
